@@ -35,18 +35,18 @@ margin-top: 700px;}
 .part-three-heading{text-align: left; }
 .part-three-section{
 margin:0;}
-.card-1{width: 35px;
-height: 289px;
+.card-1{width: 580px;
+height: 287px;
 }
 .part-four-section{flex-direction: column;
 margin:0;
 }
-.form-section{width:560px;
+.form-section{width:auto;
 
 }
 .subscribe-btn{
        width: auto;
-       /* width: 300px; */
+       width: 300px;
 height: 40px;
 border-radius: 8px;
 background: #FF5400;
@@ -63,6 +63,7 @@ background: rgba(19, 19, 24, 0.05);
 justify-self: center;
 }
 .hr-line{width:300px}
+body{width:auto;}
 }
 
 @media screen and (min-width:600px) and (max-width:1000px)
