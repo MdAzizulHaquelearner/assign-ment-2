@@ -8,7 +8,7 @@ margin: 0;
 border-radius: 8px;
 background-position-x: center;
 }  
-       /* main part */
+/* main part */
 .main-part-one{ flex-direction: column;
 margin:auto;
 
@@ -17,6 +17,52 @@ margin:auto;
 width:350px;
 padding: 50px;}
 .main-part-img { width:35%;}
+
+.row-1{
+grid-template-columns:1fr ;
+gap:23px;
+}
+.row-2{grid-template-columns:1fr;}
+.row-3{  grid-template-columns:1fr;}
+.part-two-section{margin:auto 0;
+margin-top: 700px;}
+.part-two-section div img{width:400px}
+.part-two-description{width:200px}
+
+.why-travel{flex-direction: column;}
+.card-3-sub{flex-direction: column;
+}
+.part-three-heading{text-align: left; }
+.part-three-section{
+margin:0;}
+.card-1{width: 35px;
+height: 289px;
+}
+.part-four-section{flex-direction: column;
+margin:0;
+}
+.form-section{width:560px;
+
+}
+.subscribe-btn{
+       width: auto;
+       /* width: 300px; */
+height: 40px;
+border-radius: 8px;
+background: #FF5400;
+border:none;
+text-align: center;
+}
+.part-four-section img{width: 600px;
+height: 422px;
+}
+.footer{width: auto;
+height: 502px;
+margin-top:30px;
+background: rgba(19, 19, 24, 0.05);
+justify-self: center;
+}
+.hr-line{width:300px}
 }
 
 @media screen and (min-width:600px) and (max-width:1000px)
