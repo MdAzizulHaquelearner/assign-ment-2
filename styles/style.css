@@ -105,7 +105,7 @@ nav {
 
 .banner-text{
     border-radius: 16px;
-    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner\ background\ img.png);
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/projects/assign-ment-2/images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -360,7 +360,7 @@ input.primary-btn {
     font-size: 24px;
     font-weight: 800;
 }
-.subscribe-form p{}
+/* .subscribe-form p{} */
 .subscribe-form input {
     display: block;
     width: 100%;
@@ -383,9 +383,9 @@ input[type="submit"] {
 .img-with-discount{
     position: relative;
 }
-.img-with-discount img{
+/* .img-with-discount img{
     
-}
+} */
 
 .img-with-discount .offer {
     background-color: var(--fourty-color);
