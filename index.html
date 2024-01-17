@@ -1,176 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mind Fresh Travel</title>
-<link rel="stylesheet" href="style/style.css">
-<link rel="stylesheet" href="responsive.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Azizul Haque">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Mind Fresh Travel - Website</title>
+    <link rel="shortcut icon" href="./images/travellFavi.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body>
-<header class="header">
-<section class="header-section">
-<nav class="nav-bar">
-<div class="nav-icon">
-<img src="images/Group 40071 (2).png" alt="">
-<p>Mind Fresh <span class="travel-style">Travel</span></p>
-</div>
-<!-- <div class="nav-menu-item">
-<a class="home-bar" href="#">Home</a>
-<a href="#">Packages</a>
-<a href="#">Testimonial</a>
-<a href="#"> Blog</a>
-<a href="#">Contact</a>
-</div> -->
-</nav>
-</section>
-<!-- header banner section start here -->
 
-<section class="banner-container">   
-    <div class="banner-content">
-<div class="banner-description"><h1 class="banner-heading">Explore Your Travel</h1>
-    <p class="primary-style banner-caption">Nestled amidst the picturesque landscapes of Japan, Kyoto stands as a timeless testament to the country's rich history and cultural heritage. Feel free to adjust and personalize this travel experience 
-    </p></div>
-               
-<div class="input-menu-item">
-<input class="common-input" type="text" placeholder="Where go">
-<select name="Tenses" class="selector-input">
-<option value="placeholder">When</option>
-<option value="When">january</option>
-<option value="february">February</option> 
-<option value=March>March</option>     
-</select>
-<select name="type" class="selector-input">
-<option value="option">Select Type</option>
-</select> 
-<button class="primary-btn"> <img src="images/Frame (2).png" alt=""> Find Now </button>
-</div>
+    <!-- Heading Start -->
+    <header >
+        <div class="container">
+            <nav>
+                <div class="header-left">
+                    <div class="logo">
+                        <a href=""> <img src="./images/logo.png" alt=""> </a>
+                    </div>
+                    <div class="logo-text">
+                        <a href=""> <h2> Mind Fresh <span> Travel </span> </h2> </a>
+                    </div>
+                </div>
 
-</div> 
-</section>
-</header>
+                <div class="header-right">
+                    <label for="click"> <i class="fa-solid fa-bars"></i> </label>
+                    <input type="checkbox" name="" id="click">
+                    <ul>
+                        <li> <a class="active" href="#Home">Home</a> </li>
+                        <li> <a href="#Packages">Packages</a> </li>
+                        <li> <a href="#Testimonial">Testimonial</a> </li>
+                        <li> <a href="#Blog">Blog</a> </li>
+                        <li> <a href="#Contact">Contact</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Heading End -->
 
-<main>
-   <div class="main-part-one">
-    <div class="main-heading-description">
-<h3 class="tour-description"> Our Popular Tours</h3>
-<p>
-    Certainly! Here are some general pieces of advice for a successful and enjoyable tour</p>
-<ul>
-    <li>Research your destination thoroughly.
-        Plan an itinerary but leave room for spontaneity.</li>
-    <li>Pack appropriate clothing for the weather and activities.
-        Don't forget essentials like chargers, travel adapters, and any necessary medications.</li>
-    <li>Especially if you're in a new climate.
-        Get enough sleep to stay energized.
-        Follow safety guidelines and take necessary vaccinations.</li>
-</ul>
-<p>Be aware of your surroundings and keep your belongings secure.
-    Know emergency numbers and the location of the nearest embassy or consulate.</p>
-    <div><button class="primary-btn">Read More</button></div>
-    </div>
+    <!-- Main Section All Container -->
 
-<div class="main-part-img">
-    <img src="images/Rectangle 4.png" alt="">
-</div>
-   </div>
+    <main>
+    <!-- Banner Section Start-->
+        <section class="banner" id="Home">
+            <div class="container">
+                <div class="banner-text">
+                    <h2>Explore Your Travel</h2>
+                    <p> Travelling is the best way to Explore the World. So, we all should go for travelling. I hope, All person have this aim. People can enjoy the World. </p>
+                    <div class="form">
+                        <form action="">
+                            <input type="text" name="" placeholder="Where You Want to go" id="form-place">
+                            <select name="" id="">
+                                <option value="Select Time">Select Time</option>
+                                <option value=" 11 AM "> 11 AM </option>
+                                <option value=" 12 PM ">12 PM</option>
+                                <option value="1 PM">1 PM</option>
+                                <option value="2 PM">2 PM</option>
+                            </select>
+                            
+                            <select name="" id="">
+                                <option value="Select Type">Select Type</option>
+                                <option value=" Advanture"> Advanture </option>
+                                <option value=" Comfort "> Comfort </option>
+                                <option value="Crowdy">Crowdy</option>
+                                <option value="Open Air">Open Air</option>
+                            </select>
+                                <div class="btn">
+                                    <i class="fa-solid fa-magnifying-glass" ></i>
+                                        <input class="primary-btn" type="submit" value="Find Now">
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Banner Section End -->
+
+    <!-- Package Section Start -->
+        <section id="Packages">
+            <div class="container">
+                <div class="pack-content">
+                    <div class="pack-text">
+                        <h2 class="title" > Our Popular Tours </h2>
+                        <p class="description">Travelling is the best way to Explore the World. So, we all should go for travelling. I hope, All person have this aim. People can enjoy the World.</p>
+                        <ul>
+                            <li>So, should travel for learn new something. i am a new learner. So what i can write. </li>
+                            <li>Travelling is the interenting thing in the world. we can go out to see the world. </li>
+                            <li> When i will have money i want to go out to see the new thing </li>
+                        </ul>
+                        <p class="description" > we all should go for travelling. I hope, All person have this aim. People can enjoy the World..</p>
+                        <a class="primary-btn" href="">Read More</a>
+                    </div>
+                    <div class="pack-img">
+                        <img src="./images/Rectangle 4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Package Section End -->
+
+    <!-- Your Choose Place Start -->
+        <section class="destination" >
+            <div class="container">
+                <div class="place-title-text">
+                    <h2 class="title" >Choose Your Destination</h2>
+                    <p class="description"> Traveling is the best way to Explore the World. So, we all should go for traveling. I hope, All person have this aim. People can enjoy the World.
+                    </p>
+                </div>
+                <div class="place-picture">
+                    <div class="desti-img maldives">
+                        <img src="./images/Rectangle 5.png" alt="">
+                        <h1>Maldives</h1>
+                    </div>
+                    <div class="desti-img indonesia">
+                        <img src="./images/Rectangle 8.png" alt="">
+                        <h1>Indonesia</h1>
+                    </div>
+                    <div class="desti-img srilanka">
+                        <img src="./images/Rectangle 6.png" alt="">
+                        <h1>Srilanka</h1>
+                    </div>
+                    <div class="desti-img america">
+                        <img src="./images/Rectangle 7.png" alt="">
+                        <h1>North America</h1>
+                    </div>
+                    <div class="desti-img kashmir">
+                        <img src="./images/Rectangle 9.png" alt="">
+                        <h1>Kashmir</h1>
+                    </div>
+                    <div class="desti-img bangladesh">
+                        <img src="./images/Rectangle 11.png" alt="">
+                        <h1>Bangladesh</h1>
+                    </div>
+                    <div class="desti-img bandorban">
+                        <img src="./images/Rectangle 10.png" alt="">
+                        <h1>Bandarban</h1>
+                    </div>
 
 
-<!-- Part -two-start here -->
+                </div>
+            </div>
+        </section>
+    <!-- Your Choose Place End -->
 
-<section class="part-two-section">
-<div class="part-two-description">
- <h2>Choose Your Destination</h2>
- <p>Join local tours or activities to meet other travelers.
-    Share tips and recommendations with fellow tourists.</p> </div>
+    <!-- Choose Section Start here now -->
+        <section id="Testimonial">
+            <div class="container">
+                <div class="place-title-text">
+                    <h2 class="title" >Why Choose Us</h2>
+                    <p class="description"> Traveling is the best way to Explore the World. So, we all should go for traveling. I hope, All person have this aim. People can enjoy the World.
+                    </p>
+                </div>
 
-<div  class="row-1">
-    
-    <div><img src="./images/2.png" alt=""></div>
- <div><img src="./images/3.png" alt=""></div>
-    </div>
-<div class="row-2">
-<div><img src="./images/4.png" alt=""></div>
-<div><img src="./images/5.png" alt=""></div>
-<div><img src="./images/6.png" alt=""></div>
-</div>
+                <div class="why-choose">
+                    <div class="choose-box">
+                        <div class="box-1">
+                            <div class="card">
+                                <img src="./Images/hotel 1 (2).png" alt="">
+                                <h3 class="title">Abu Dhabi Hotels</h3>
+                                <p class="box-des">Cusco is the undisputed archaeological hub of South America, and visiting it is an essential part of any trip to Peru. peoro is ithe beautifill country  </p>
+                            </div>
+                        </div>
+                        <div class="box-2">
+                            <div class="card">
+                                <img src="./Images/map 1 (1).png" alt="">
+                                <h3 class="title">World Class Service</h3>
+                                <p class="box-des">Travelling is the best way to Explore the World. So, we all should go for travelling. I hope, All person have this aim. People can enjoy the World. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="card">
+                            <img src="./Images/price-tag 1 (2).png" alt="">
+                            <h3 class="title">Best Price Guarantee</h3>
+                            <p class="box-des">Travelling is the best way to Explore the World. So, we all should go for travelling. I hope, All person have this aim. People can enjoy the World. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Choose Section End here now -->
 
-<div class="row-3">
-    <div><img src="./images/7.png" alt=""></div>
-    <div><img src="./images/8.png" alt=""></div>
+    <!-- Discount Section Starting -->
+    <section class="discout" id="Blog">
+        <div class="container">
+            <div class="place-title-text">
+                <h2 class="title" >Deals & Discounts </h2>
+                <p class="description"> Travelling is the best way to Explore the World. So, we all should go for travelling. I hope, All person have this aim. People can enjoy the World.
+                </p>
+            </div>
+            <div class="satorini-1">
+                <div class="satorini-img">
+                    <img src="./images/Group 39.png" alt="">
+                    <div class="author-text">
 
-</div>
+                        <a href=""> <i class="fa-solid fa-clock"></i> 7 Day / 6 Night </a>
+                        <a href=""> <i class="fa-solid fa-user-group"></i> Max : 10 </a>
+                        <a href=""> <i class="fa-solid fa-location-pin"></i> Malaysia </a>
+                    
+                        
+                        <h2 class="title">Tour To Mind Fresh</h2>
+                        <p class="description" >Travelling is the best way to Explore the World. So, we all should go for travelling. I hope, All person have this aim. People can enjoy the World..</p>
 
-</div>
-</section>
+                        <h2 class="price">Price: $1300-$1500</h2>
+                        
+                        <a class="primary-btn" href="">See More</a>
 
-<!-- part three section -->
+                    </div>
+                </div>
+            </div>
+            <div class="satorini-2">
+                <div class="satorini-img">
+                    <img src="./images/Group 40.png" alt="">
+                    <div class="author-text ">
 
+                        <a href=""> <i class="fa-solid fa-clock"></i> 7 Day / 6 Night </a>
+                        <a href=""> <i class="fa-solid fa-user-group"></i> Max : 10 </a>
+                        <a href=""> <i class="fa-solid fa-location-pin"></i> Malaysia </a>
+                    
+                        
+                        <h2 class="title">Travel with Tour</h2>
+                        <p class="description" >Travelling is the best way to Explore the World. So, we all should go for travelling. I hope, All person have this aim. People can enjoy the World..</p>
 
-<section class="part-three-section">
-<div class="part-three-heading">
-    <h2>Why Choose Us</h2>
-    <p>Be aware of your belongings secure.
-    </p>
-</div>
-<div class="why-travel">
-<div class="card-1"><img src="./images/hotel 1.png" alt="">
-    <h3>Handpicked Hotels</h3>
-    <p>  Here are some general successful and enjoyable tour</p>
-</div>
+                        <h2 class="price">Price: $1300-$1500</h2>
+                        
+                        <a class="primary-btn" href="">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="satorini-3">
+                <div class="satorini-img">
+                    <img src="./images/Group 39.png" alt="">
+                    <div class="author-text">
 
-<div class="card-2"><img src="./images/map 1.png" alt="">
- <h3>World Class Service</h3>  
-<p>Be aware of your surroundings and keep your belongings secure.</p></div>
-</div>
-<div class="card-3-sub">
-<div class="card-3"><img src="./images/price-tag 1.png" alt="">
-<h3>Best Price Guarantee</h3>
-<p>Pack appropriate clothing for the weather and activities.</p></div></div>
-</section>
+                        <a href=""> <i class="fa-solid fa-clock"></i> 7 Day / 6 Night </a>
+                        <a href=""> <i class="fa-solid fa-user-group"></i> Max : 10 </a>
+                        <a href=""> <i class="fa-solid fa-location-pin"></i> Malaysia </a>
+                    
+                        
+                        <h2 class="title">Tour To Fresh</h2>
+                        <p class="description" >Travelling is the best way to Explore the World. So, we all should go for travelling. I hope, All person have this aim. People can enjoy the World.</p>
 
-<!-- part four section -->
+                        <h2 class="price">Price: $1300-$1500</h2>
+                        
+                        <a class="primary-btn" href="">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Discount Section End -->
+    <!-- Over-View Section Start -->
+    <section id="Packages">
+        <div class="container">
+            <div class="pack-content">
+                <div class="pack-text">
+                    <h2 class="title Over-View-title" > A Simple Perfect Place To Get Lost </h2>
+                    <p class="description">
+                        Certainly! Here are some general pieces of advice for a successful and enjoyable tour:
+                        
+                        Plan Ahead:
+                        
+                        Research your destination thoroughly.
+                        Plan an itinerary but leave room for spontaneity.
+                </p>
+                    <ul class="Over-View-list">
+                        <li>Be aware of your surroundings and keep your belongings secure.It can also be helpful in navigating  .</li>
+                        <li>we should travel for learn new something. i am a new learner. So what i can write.</li>
+                    </ul>
+                    <a class="primary-btn" href="">See More</a>
+                </div>
+                <div class="pack-img for-video">
 
-<section class="part-four-section">
-<div class="form-section">
-    <h2>Newsletter</h2>
-    <p>Welcome fellow wanderers to a virtual journey Get your daily dose of travel news & tips. Sign up today! </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dVAVFOU7dGk?si=zt87hjdOICzJCgyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+            
+                    <h2 class="title">Watch Our Mountain in Bangladesh</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Over-View Section End  here-->
 
-        <input class="form-input" type="text" placeholder="Enter your name"> <br> <br>
-        <input class="form-input" type="email" placeholder="Enter your email"> <br><br>
-        <div class="subscribe-btn">Subscribe </div>
-</div class=form-section-img>
-<img src="./images/10.png" alt="">
-<div>
-</div>
-</section>
-</main>
-<footer class="footer">
- <section class="footer-all-item" >   
-    <div class="footer-logo">
-    <img  src="images/Group 40071 (2).png" alt="">
-    <p>Mind Fresh <span class="travel-style">Travel</span></p>
-    </div>
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, reprehenderit.</div>
-<div class="footer-icon">
-<div>
-    <img src="./images/instagram-logo-8869 (1).png" alt="">
-</div>
-<div>
-    <img src="./images/send-mail-2574.png" alt="">
-</div>
-<div>
-    <img src="./images/phone-1.png" alt="">
-</div>
-<div>
-    <img src="./images/linkedin-112.png" alt="">
-</div>
-</div> </section>
-<br>
-<hr class="hr-line" style="width:auto">
-<div class="footer-end">2017, All Rights Reserved</div>
-</footer>
+    <!-- Subscriber part Start  -->
+    <section id="Contact">
+        <div class="container">
+            <div class="subscribers">
+                <div class="subscribe-form">
+                    <h2 class="title">Newsletter</h2>
+                    <p class="description">
+                        Get your daily dose of travel news & tips. Sign up today!
+                    </p>
+                    <input type="text" name="" placeholder="Enter Your Name" id="">
+                    <input type="email" name="" placeholder="Enter Your Email" id="">
+                    <input type="submit" value="Subscribe">
+                </div>
+                <div class="subscribe-img">
+                    <div class="img-with-discount">
+                        <img src="./images/Rectangle 8 (1).png" alt="">
+                        <div class="offer">
+                            <h3> Travel.com</h3>
+                            <h2>Save up to 70%</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Subscriber part End -->
+    </main>
 
+    <!-- Footer Section Start  -->
+    <footer>
+        <div class="container">
+            <div class="footer-heading">
+                <div class="header-left">
+                    <div class="logo">
+                        <a href=""> <img src="./images/logo.png" alt=""> </a>
+                    </div>
+                    <div class="logo-text">
+                        <a href=""> <h2> Mind Fresh<span> Travel </span> </h2> </a>
+                    </div>
+                </div>
+                <p class="description"> Travelling is the best way to Explore the World. So, we all should go for travelling. I hope, All person have this aim. People can enjoy the World.
+                </p>
+                <div class="social-menu">
+                    <ul>
+                        <li> <a href=""> <i class="fa-brands fa-facebook"></i> </a> </li>
+                        <li> <a href=""> <i class="fa-brands fa-linkedin-in"></i> </a> </li>
+                        <li> <a href=""> <i class="fa-brands fa-github"></i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="description"> 2024, All Rights Reserved. </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
